@@ -1,5 +1,5 @@
-# Artemis Discord Bot
-Discord bot in production, using Node & RethinkDB
+# Artemis NEXT
+The successor to my older, and much smaller, Discord bot "Artemis" - this time using Node & RethinkDB
 ## Planned features:
  - [x] ES6 compiled and minified
  - [ ] Command implementation framework

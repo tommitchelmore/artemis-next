@@ -2,6 +2,8 @@
   "name": "artemis",
   "version": "1.0.0",
   "description": "",
+  "author": "Thomas Mitchelmore <tommitchelmore@outlook.com> (https://tommitchelmore.com/)",
+  "license": "UNLICENSED",
   "main": "artemis.js",
   "scripts": {
     "build": "babel ./src --out-dir ./dist --copy-files",
@@ -10,10 +12,8 @@
     "clean": "rimraf dist",
     "prod": "NODE_ENV=production npm-run-all clean build start"
   },
-  "keywords": [],
-  "author": "Thomas Mitchelmore <tommitchelmore@outlook.com> (https://tommitchelmore.com/)",
-  "license": "UNLICENSED",
   "dependencies": {
+    "@artemis/panel": "./panel",
     "argon2": "^0.27.1",
     "body-parser": "^1.19.0",
     "discord.js": "^12.5.1",

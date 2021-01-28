@@ -1,0 +1,19 @@
+{
+  "name": "@artemis/panel",
+  "version": "1.0.0",
+  "description": "Web panel component of the Artemis Discord bot",
+  "author": "Thomas Mitchelmore <tommitchelmore@outlook.com> (https://tommitchelmore.com/)",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "devDependencies": {
+    "snowpack": "^3.0.1"
+  },
+  "dependencies": {
+    "antd": "^4.11.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
