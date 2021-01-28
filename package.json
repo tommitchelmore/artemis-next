@@ -1,0 +1,35 @@
+{
+  "name": "artemis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "artemis.js",
+  "scripts": {
+    "build": "babel ./src --out-dir ./dist --copy-files",
+    "start": "node dist/artemis.js",
+    "dev": "nodemon -x babel-node src/artemis.js",
+    "clean": "rimraf dist",
+    "prod": "NODE_ENV=production npm-run-all clean build start"
+  },
+  "keywords": [],
+  "author": "Thomas Mitchelmore <tommitchelmore@outlook.com> (https://tommitchelmore.com/)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "argon2": "^0.27.1",
+    "body-parser": "^1.19.0",
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "rethinkdb": "^2.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.5.1",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2"
+  }
+}

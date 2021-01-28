@@ -1,0 +1,18 @@
+{
+    "global": {
+
+    },
+    "discord": {
+        "client_id": "",
+        "client_secret": "",
+        "bot_token": ""
+    },
+    "web_server": {
+        "port": "",
+        "secret": ""
+    },
+    "database": {
+        "host": "",
+        "port": ""
+    }
+}
